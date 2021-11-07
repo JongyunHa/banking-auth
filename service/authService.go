@@ -2,10 +2,11 @@ package service
 
 import (
 	"errors"
+	"log"
+
 	"github.com/ashishjuyal/banking-auth/domain"
 	"github.com/ashishjuyal/banking-auth/dto"
 	"github.com/dgrijalva/jwt-go"
-	"log"
 )
 
 type AuthService interface {
